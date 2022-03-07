@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background-color: hsla(225, 100%, 94%, 0.8);
+}
+
+.card {
+  height: 600px;
+  width: 400px;
+  max-width: 1440px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.hero {
+  background-image: url(images/illustration-hero.svg);
+}
+
+h2,
+p {
+  padding: 10px;
+}
+
+.plan-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(225, 100%, 98%);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.plan-card > *:nth-child(1) {
+  flex: 0 0 10%;
+}
+
+.plan-card > *:nth-child(2) {
+  flex: 0 0 60%;
+}
+
+.plan-card > *:nth-child(3) {
+  flex: 0 0 20%;
+}
+.content {
+  margin-left: 20px;
+  font-size: 14px;
+  color: var(--dark-blue);
+  padding-top: 10px;
+}
+h2 {
+  text-align: center;
+  font-weight: 500;
+}
+h4 {
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-logo {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.font {
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  padding-top: 5px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 300;
+}
+
+#change {
+  padding-top: 20px;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+
+#change:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+#payment {
+  color: white;
+  font-weight: 500;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.payment:hover {
+  background-color: hsl(225, 100%, 94%);
+}
+
+.cancel {
+  background-color: hsl(225, 100%, 98%);
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+#cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+#cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
